@@ -8,7 +8,7 @@ I worked on this project while learning cloud computing and deployment basics. T
 
 ## Live Demo
 
-[Play the live game](https://your-github-username.github.io/guess-the-capital-game/)
+[Play the live game](https://markebinaizer.github.io/guess-the-capital-game/)
 
 ## Features
 
