@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess The Capital Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-wrapper">
+    <section class="game-card" id="gameScreen">
+      <div class="game-header">
+        <div>
+          <p class="eyebrow">Cloud Portfolio Project</p>
+          <h1>Guess The Capital</h1>
+        </div>
+        <div class="score-box">
+          <span>Score</span>
+          <strong id="score">0</strong>
+        </div>
+      </div>
+
+      <div class="progress-row">
+        <span id="questionCounter">Question 1 of 10</span>
+        <span id="feedback" class="feedback">Choose an answer</span>
+      </div>
+
+      <div class="question-box">
+        <p>What is the capital of</p>
+        <h2 id="countryName">Country</h2>
+      </div>
+
+      <div class="answers-grid" id="answerButtons"></div>
+
+      <button class="next-button" id="nextButton" disabled>Next Question</button>
+    </section>
+
+    <section class="game-card final-card hidden" id="finalScreen">
+      <p class="eyebrow">Game Complete</p>
+      <h1>Your Final Score</h1>
+      <div class="final-score">
+        <span id="finalScore">0</span>
+        <small>/ 10</small>
+      </div>
+      <p id="finalMessage" class="final-message"></p>
+      <button class="next-button" id="playAgainButton">Play Again</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
