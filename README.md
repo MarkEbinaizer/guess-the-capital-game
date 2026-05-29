@@ -8,7 +8,7 @@ I worked on this project while learning cloud computing and deployment basics. T
 
 ## Live Demo
 
-[Play the live game](https://guess-the-capital.2af7sxxl64l6.us-south.codeengine.appdomain.cloud/)
+[Play the live game]([https://guess-the-capital.2af7sxxl64l6.us-south.codeengine.appdomain.cloud/](https://markebinaizer.github.io/guess-the-capital-game/))
 
 ## Features
 
